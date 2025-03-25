@@ -434,6 +434,9 @@ footer {
   }
 }
 @media (max-width: 768px) {
+  header.hero-img, .aboutme-photo, .aboutme-shadow, .location-shadow{
+    background-attachment: scroll;
+  }
   .navbar-expand-lg .navbar-collapse {
     height: 100px;
     display: block;
