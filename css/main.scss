@@ -1,0 +1,455 @@
+:root {
+    --root-grey: grey;
+    --root-text-shadow: 0 0 1px grey, 0 0 1px grey, 0 0 1px grey;
+}
+
+.ask-for-price, .fa-phone-volume, .prices-ul, .prices-inscription,.opinion-inscription, .location-text,.lefft-info, .right-info, .footer-p {
+    color: rgb(158, 156, 156);
+text-shadow: var(--root-text-shadow);
+}
+header.hero-img, .aboutme-photo,.aboutme-shadow, .location-shadow{
+    background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        object-fit: cover;
+}
+.aboutme-shadow,.aboutme-shadow::before, .location-shadow, .location-shadow::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+footer,.hero-text,  .benefits-inscription, .location-text,.opinion-inscription,.prices-inscription,.prices-ul, .h2{
+    text-align: center;
+}
+.hero-text,.row,.benefits-inscription{
+    display: flex;
+    justify-content: center;
+}
+.line,.fa-chevron-down,h2.main-info{position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);}
+    
+    .aboutme-shadow::before, .location-shadow::before {
+        content: '';
+        background-color: rgba(0, 0, 0, 0.9); 
+        z-index: -1;}
+html{
+    overflow-x: hidden;
+}
+
+body{
+    background-color: rgb(3, 0, 0); 
+    
+    overflow: scroll;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    
+    
+ 
+    
+    h1, h2, h3 {
+        font-family: 'Cinzel', serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        text-shadow: var(--root-text-shadow);
+    }
+
+    p {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 400;
+        line-height: 1.6;} }
+    .quote {
+        font-family: 'Great Vibes', cursive;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: var(--root-grey); }
+    .line {
+         
+        height: 2px; 
+        background-color: #fff;
+        border-radius: 5px;                  }
+    nav {    
+        height: 80px;  
+        transition: 0.6s; 
+        background-color: rgba(0, 0, 0, 0.9);
+        .nav-link, .navbar-expand-lg, .navbar-nav, .navbar-brand, .fa-bars, .navbar-toggler  {
+            color: var(--root-grey);
+            font-size: 20px; }
+        .navbar-nav {
+            margin: 0 auto;
+            margin-right: 20px;}
+        .nav-link:hover, .navbar-expand-lg:hover, .navbar-nav:hover, .navbar-brand:hover, .fa-bars:hover {
+            color: brown;}
+        .shadow-bg {
+            background-color: rgba(0,0,0,0.9);} }
+    .hero-h1 {
+        text-shadow: none;}
+    header.hero-img {
+        overflow: hidden;
+        height: 100vh;
+        width: 100%;
+        background-image: url('../img/JJSTRONA.jpg');
+        z-index: 0;}
+    .hero-text {
+        height: 100%;
+        flex-direction: column;}
+    .hero-img, h1 {
+        font-size: 70px;
+        color: var(--root-grey);}
+    .main-info p {
+        padding: 150px;
+        margin: 0 40px;
+        color: var(--root-grey); }
+    .main-info {
+        position: relative;
+        h2 {  margin-top: 20px; 
+            top: 30px;
+            color: var(--root-grey);
+            text-transform: uppercase;}}
+    .main-line {
+        top: 100px;
+        width: 30%;    }
+    .aboutme-photo {
+        width: 100%;  
+        z-index: 1;}
+    .about-me-text {
+        text-shadow: var(--root-text-shadow);}
+    
+    
+        .aboutme-shadow {
+        background-image: url('../img/JJSTRONA2.jpg');
+        z-index: -5;}
+    .h2 {
+        color: var(--root-grey);
+    }
+    .Benefits-of-training { 
+        position: relative;
+        .container {
+            width: 70%;   } }
+    .benefits-inscription {
+        height: 80px;
+        font-size: 40px;
+        margin-bottom: 10px;
+        color: #999797;}
+    .Benefits-of-training, .benefits-line {
+        width: 20%;}
+    .row {
+        gap: 80px;}
+    .lefft-info, .right-info {
+        border: 1px solid;
+        font-size: 17px;
+        box-shadow: 0px 0px 10px rgba(115, 115, 115, 0.9);
+        margin-top: 40px;}
+    .location-text {
+        text-transform: uppercase;
+        display: block;
+        font-size: 20px;
+        padding: 5px 0;}
+        
+    .location-line {
+        width: 15%;   
+    }
+    .location {
+        position: relative;
+        padding: 20px 20px;
+    }
+    .location-inscription {
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-transform: uppercase;}
+    .location-shadow {
+        background-image: url('../img/JJSTRONA2.jpg');
+        z-index: -5;}
+        .prices{
+            position: relative;
+    } 
+    .prices-inscription {
+        font-size: 25px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .prices-ul {
+        list-style-type: none;
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+    }
+    .prices li {
+        margin-bottom: 10px;
+    }
+   
+    .price-line {
+        width: 7%;}
+     
+.ask-for-price, .fa-phone-volume{
+    position: fixed;      
+    bottom: 20px;         
+    font-size: 18px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    left: 50px;  
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ask-for-price {
+    margin-left: 30px;
+    font-weight: bold;
+    border-radius: 10%;
+    z-index: 100;}
+.fa-phone-volume {
+    cursor: pointer;
+    animation: shake .4s infinite;
+    z-index: 100;
+    }
+    .last-li{
+        margin-bottom: 100px;
+    }
+    .logo, .contact,.footer-p,.fa-brands{
+        position: absolute;
+        
+    }
+    .logo{
+
+        top: 200px;
+        left: 73%;
+      }   
+    div.logo img {    
+        width: 200px;
+        height: 200px;
+    }
+        .contact{
+            
+                top: 175px;  left: 50%;
+                transform: translate(-50%);
+                font-size: 13px;
+            width: 170px;
+            border-radius: 25%;
+           text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            background-color: #5D9CEC;
+        }
+
+        
+.fa-brands{
+    top: 70px;
+    font-size: 33px;
+    color: white;
+    border: 1px solid white;border-radius: 25%;   
+ 
+
+}
+.fa-instagram{
+left: 75%;
+}
+.fa-tiktok{
+    left: 79%;
+}
+.fa-brands:hover{
+    transform: scale(1.4);
+}
+.footer-p{
+    top: 120px;
+    left: 73%;
+    font-weight: bold;
+
+}
+    footer {
+        height: 60px;
+        font-size: 12px;
+        margin-top: 60px;
+        color: #fff; }
+    @media (max-width:350px){
+        header.hero-img {
+            background-image: url('../img/JJSTRONA\ mw\ 350px.jpg');}  
+    }
+    @media (max-width: 578px) {
+        header.hero-img .hero-img, header.hero-img h1 {
+            font-size: 40px;}   
+        .main-info { p {padding: 150px 50px 50px 50px;
+                        border: 1px solid var(--root-grey);
+                        margin: 0 auto;} }
+        .benefits-inscription {
+            font-size: 19px;}
+        .row {
+            margin: 0 20px; }
+        .location-text {
+            font-size: 15px;}
+        .location-inscription {
+            font-size: 20px;}
+        .right-info {
+            margin-bottom: 10px; }
+        .fa-phone-volume { 
+            font-size: 22px;
+              
+        } 
+        
+            .logo{
+              display: none;
+            }  
+                
+        .fa-brands{
+            font-size: 22px;
+        }
+        .fa-instagram{
+        left: 76%;
+        }
+        .fa-tiktok{
+            left: 84%;
+        }
+        .footer-p{
+          display: none;
+         }
+         header.hero-img {
+            background-image: url('../img/JJSTRONA\ mw\ 578px\ \(1\).jpg');}
+        }
+
+    @media (max-width: 420px) {
+        .benefits-inscription {
+            font-size: 15px;
+            margin: 0 10px;} }
+    @media (min-width: 578px) and (max-width: 768px) {
+        header.hero-img .hero-img, header.hero-img h1 {
+            font-size: 55px;}
+        .main-info {
+            p {padding: 150px 50px 70px;
+                border: 1px solid var(--root-grey);
+                margin: 0 auto;} }
+        .benefits-inscription {
+            font-size: 25px;}
+        .location-text {
+            font-size: 17px;}
+        .location-inscription {
+            font-size: 20px;}
+               div.logo img {    
+                width: 140px;
+                height: 140px;
+            }
+                  
+          .fa-brands{
+            font-size: 25px;
+          }
+          .fa-instagram{
+          left: 76%;
+          }
+          .fa-tiktok{
+              left: 84%;
+          }
+          .footer-p{
+            top: 110px;
+            left: 71%;
+          }
+          .ask-for-price,.fa-phone-volume{
+            font-size: 15px;
+          }
+          .ask-for-price{
+            margin-left: 20px;
+          }
+        }
+            
+    @media (max-width:768px) {
+        .navbar-expand-lg .navbar-collapse {
+            height: 100px;
+            display: block;}
+        .navbar-nav {
+            display: none;
+            text-align-last: left;}
+        .navbar-toggler { 
+            position: fixed;
+            top: 35px;
+            right: 45px;
+            background: none;
+            border: none;
+            cursor: pointer;}
+        .navbar-brand {
+            display: none;}
+            header.hero-img {
+                background-image: url('../img/JJSTRONA\ max\ width\ 768.jpg');}
+        .row {
+            gap: 5px;} }
+            
+    @media (min-width: 768px) {
+        .navbar-toggler {
+            display: none;  } }
+    @media (min-width: 768px) and (max-width: 992px) {
+        .main-info p {
+            padding: 150px 35px 30px;
+            margin: 0 10px;
+            color: var(--root-grey);}
+        .about-me-text {
+            border: 1px solid;}
+        .navbar .container, .navbar .container-fluid, .navbar .container-lg, .navbar .container-md, .navbar .container-sm, .navbar .container-xl {
+            -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;}
+        .navbar-expand-lg .navbar-collapse, .navbar-nav {
+            display: flex;         
+            flex-direction: row;   
+            gap: 20px; }
+        header.hero-img .hero-img, header.hero-img h1 {
+            font-size: 60px;}
+        .benefits-inscription {
+            font-size: 25px;}
+        .location-text {
+            font-size: 18px;}
+        .location-inscription {
+            font-size: 23px;}
+        .row {
+            gap: 40px; } 
+            div.logo img {    
+                width: 170px;
+                height: 170px;
+            }
+             
+                  
+          .fa-brands{
+            font-size: 28px;
+        }
+        .fa-instagram{
+        left: 79%;
+        }
+        .fa-tiktok{
+            left: 84%;
+        }
+        .footer-p{
+          top: 110px;
+          left: 76%;
+        }
+        }
+    @media (min-width: 992px) {
+        .main-info { 
+            .container {
+                border: 1px solid var(--root-grey);
+                box-shadow: 0px 0px 10px rgba(115, 115, 115, 0.9);}
+                .contact:hover{
+                    transform: scale(1.007);
+                }
+            p {
+                margin: 0 -120px;
+            }   } }
+    @keyframes jump { 
+        0% {top: calc(100% - 50px);}
+        50%{top: calc(100% - 150px);}
+        70%{top: calc(100% - 70px);}
+        80%{top: calc(100% - 110px);}
+        100% {top: calc(100% - 50px);}
+    }
+    @keyframes shake {
+        0%{    transform: rotate(-30deg);};
+        30%{    transform: rotate(-55deg);};
+        50%{    transform: rotate(-20deg)};
+        60%{    transform: rotate(-55deg)};
+        70%{    transform: rotate(-30deg)};
+        100%{    transform: rotate(-45deg)};   
+    } 
+.start{
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.9);
+}

@@ -1,0 +1,271 @@
+:root {
+    --root-grey: white;
+  
+}
+html{
+    overflow-x: hidden;}
+body{
+    background-color: #060505;     
+    overflow: scroll;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+h1{font-size: 25px;
+    }
+    h2{font-size: 20px;
+    }
+    h3{font-size: 17px;;}
+    
+    h1,h2{text-align:center;
+        margin: 40px 0;}
+    
+    h1,h2,h3 {
+        font-family: 'Cinzel', serif;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: bold;
+        color: white;
+    text-shadow: 0 0 1px grey, 0 0 1px grey, 0 0 5px grey;;}
+        
+        p {
+        color: var(--root-grey);;
+        text-shadow: var(--root-text-shadow);
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 400;
+        line-height: 1.6;} 
+      
+    .quote {
+        font-family: 'Great Vibes', cursive;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: var(--root-grey); }
+    
+nav{ 
+    background-color: rgb(16, 13, 13);
+    img{
+        height: 30px;
+        width: 30px;
+      }
+}    
+.navbar-nav { 
+    margin: 0 auto;
+    margin-right: 20px;}
+.navbar-expand-lg .navbar-nav .nav-link,.navbar-brand,.navbar-toggler{
+    font-size: 20px;
+    color: white;
+    
+}
+.navbar-expand-lg:hover .navbar-nav:hover .nav-link:hover,.navbar-brand:hover,.navbar-toggler:hover {
+    color: brown;
+}
+.navbar-toggler{
+    font-size: 23px;
+    padding: 20px;
+    border: none;
+}
+.my-list {
+    border:1px solid white ;
+    list-style-type: disc; /* Domyślne punkty w formie kropki */
+    margin:0  20px; 
+    padding: 20px;
+}
+  
+  .my-list li {
+    font-size: 15px; /* Zmieniamy rozmiar czcionki */
+    line-height: 1.5;
+    margin: 10px 0;
+    color: white;
+    list-style-type: none;
+  }
+  
+.ask-for-price, .fa-phone-volume{
+    position: fixed;      
+    bottom: 20px;         
+    font-size: 18px;
+    color: #5D9CEC;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    left: 50px;  
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ask-for-price {
+    
+    margin-left: 30px;
+    text-shadow: 0 0 1px grey, 0 0 1px grey, 0 0 1px grey;;
+    font-weight: bold;
+    border-radius: 10%;
+    z-index: 100;}
+.fa-phone-volume {
+    cursor: pointer;
+    animation: shake .4s infinite;
+    z-index: 100
+    ;
+    }
+
+footer {position: relative;
+    height: 250px;
+    font-size: 12px;
+    margin-top: 10px;
+    background-color: black;
+    color: #fff;
+} 
+    span, .navbar-footer, .footer-description{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,0);
+        
+}
+.footer-description{
+    top: 60px;
+    font-size: 20px;
+    color: white;
+}
+span{ top: 220px;
+    }
+.navbar-footer{top: 100px;
+    list-style-type: none;
+}
+footer, a.navlink, a.nav-link,.active{
+    font-size: 15px;
+    margin-bottom: 7px;
+    color: white;
+    text-shadow:  0 0 5px grey 0 0 10px grey 0  0 15px grey
+}
+footer{
+
+    a.navlink:hover, a.nav-link:hover,.active:hover{
+        transform: scale(1.2);
+        color: brown;
+    }
+}
+
+.fa-brands{
+    position: absolute;
+    top: 40px;
+    font-size: 30px;
+    color: white;
+    border: 1px solid white;border-radius: 25%;   
+ 
+
+}
+.fa-instagram{
+left: 76%;
+}
+.fa-tiktok{
+    left: 79%;
+}
+.fa-brands:hover{
+    transform: scale(1.4);
+}
+.footer-p{
+    position: absolute;
+    top: 85px;
+    left: 74%;
+    font-weight: bold;
+
+}
+span{
+    color: aliceblue;
+}
+@media (min-width:0) and (max-width:420px){
+    h1{font-size: 17px;}
+    h2{font-size: 14px;}
+    h3{font-size: 12px;}
+    footer{font-size: 8px;}
+    .fa-brands{
+        
+        font-size: 18px;
+      
+    }
+    .fa-instagram{
+    left: 78%;
+    }
+    .fa-tiktok{
+        left: 85%;
+    }
+    .footer-p{
+        
+        top: 65px;
+        left: 74%;
+      
+    
+    }
+}
+@media (min-width:420px) and (max-width:768px){
+    h1{font-size: 23px;}
+    h2{font-size: 17px;}
+    h3{font-size: 15px;}
+    footer{font-size: 11px;}
+    .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 15px;
+    }   
+    .navbar-brand{
+        font-size: 18px;
+    }
+    .fa-brands {
+        font-size: 25px;
+    }
+    .fa-instagram{
+    left: 75%;
+    }
+    .fa-tiktok{
+        left: 81%;
+    }
+    .footer-p{
+        top: 75px;
+        left: 72%;
+    }
+    .ask-for-price, .number{
+        font-size: 14px;
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+    h1{font-size: 21px;}
+    h2{font-size: 18px;}
+    h3{font-size: 15px;}
+    footer{font-size: 13px;}
+    .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 19px;
+    }   
+    .navbar-brand{
+        font-size: 22px;
+    }
+    .fa-brands{
+        font-size: 23px;    }
+    .fa-instagram{
+    left: 78%;
+    }
+    .fa-tiktok{
+        left: 82%;
+    }
+    .footer-p{
+        top: 75px;
+        left: 75%;   }
+}
+@media(min-width:992px) and (max-width:1200px){
+    .fa-brands{
+        font-size: 25px;    }
+    .fa-instagram{
+    left: 78%;
+    }
+    .fa-tiktok{
+        left: 82%;
+    }
+    .footer-p{
+        top: 75px;
+        left: 75%;   }
+}
+@keyframes shake {
+    0%{    transform: rotate(-30deg);};
+    30%{    transform: rotate(-55deg);};
+    50%{    transform: rotate(-20deg)};
+    60%{    transform: rotate(-55deg)};
+    70%{    transform: rotate(-30deg)};
+    100%{    transform: rotate(-45deg)};   
+} 
+
+    
