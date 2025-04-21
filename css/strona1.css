@@ -3,7 +3,8 @@
   
 }
 html{
-    overflow-x: hidden;}
+    overflow-x: hidden;
+    scroll-behavior: smooth;}
 body{
     background-color: #060505;     
     overflow: scroll;
@@ -267,5 +268,16 @@ span{
     70%{    transform: rotate(-30deg)};
     100%{    transform: rotate(-45deg)};   
 } 
-
+.arrow-up{
+    display: block;
+    margin: 20px 30px;
+    padding: 20px;
+    color: #5D9CEC;
+    font-size: 20px;
+    text-align: right;
+    cursor: pointer;
+  }
+  .arrow-up:hover{
+    color:white;
+  }
     
