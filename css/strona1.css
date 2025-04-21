@@ -48,6 +48,8 @@ nav{
     img{
         height: 30px;
         width: 30px;
+        border: #ff8800 1px solid;
+        border-radius: 25%;
       }
 }    
 .navbar-nav { 

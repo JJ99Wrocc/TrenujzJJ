@@ -157,6 +157,7 @@ border-radius: 8px;
 cursor: pointer;
 text-decoration: none;
 transition: 0.3s;
+text-shadow: 0 0 5px rgba(255, 136, 0, 0.7);
 z-index: 2;
 }
 .hero-btn:hover {
@@ -330,6 +331,8 @@ z-index: 2;
 div.logo img {
   width: 200px;
   height: 200px;
+  border: #ff8800 1px solid;
+  border-radius: 22%;
 }
 
 .contact {
@@ -435,17 +438,22 @@ footer {
   }
   .hero-btn{
     width: 45%;
-    font-size: 12px;
+    font-size: 10px;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 460px) {
   .benefits-inscription {
     font-size: 15px;
     margin: 0 10px;
   }
   .hero-btn{
-    width: 45%;
+    width: 40%;
     font-size: 10px;
+  }
+  .hero-img{
+    .div{
+      font-size: 20px;
+    }
   }
 }
 @media (min-width: 578px) and (max-width: 768px) {
@@ -490,9 +498,10 @@ footer {
     margin-left: 20px;
   }
   .hero-btn{
-    width: 35%;
-    font-size: 15px;
+    width: 30%;
+    font-size: 10px;
   }
+  
 }
 @media (max-width: 768px) {
   .navbar-expand-lg .navbar-collapse {
@@ -530,7 +539,11 @@ footer {
   .navbar-brand img {
     height: 35px;
   }
-
+  .hero-img{
+    .div{
+      font-size: 22px;
+    }
+  }
   
 }
 @media (min-width: 768px) {
@@ -588,9 +601,10 @@ footer {
     left: 76%;
   }
   .hero-btn{
-    width: 36%;
-    font-size: 15px;
+    width: 30%;
+    font-size: 12px;
   }
+ 
 }
 @media (min-width: 992px) {
   .main-info .container {
@@ -664,6 +678,26 @@ footer {
 .arrow-up:hover{
   color:white
 }
+.div{
+ 
+  background-color: transparent;
+  margin: 40px 70px;
+  align-self: flex-end; 
+  text-align: right;
+  font-size: 30px;
+  color: white;
+  opacity: 0.2;
+  z-index: 3;
+  text-shadow:
+  0 0 5px #ff8800,
+  0 0 10px #ff8800,
+  0 0 15px #ff8800,
+  0 0 20px #ff8800;
 
+}
+.navbar-brand img{
+  border-radius: 25%;
+  border: #ff8800 1px solid;
+}
 
 /*# sourceMappingURL=main.css.map */
