@@ -388,7 +388,7 @@ footer {
 
 @media (max-width: 350px) {
   header.hero-img {
-    background-image: url("../img/JJSTRONA mw 350px.jpg");
+    background-image: url("../img/JJSTRONA\ mw\ 350px.jpg");
   }
 }
 @media (max-width: 578px) {
@@ -434,7 +434,7 @@ footer {
     display: none;
   }
   header.hero-img {
-    background-image: url("../img/JJSTRONA mw 578px (1).jpg");
+    background-image: url("../img/JJSTRONA\ mw\ 578px\ \(1\).jpg");
   }
   .hero-btn{
     width: 45%;
@@ -526,7 +526,7 @@ footer {
     display: none;
   }
   header.hero-img {
-    background-image: url("../img/JJSTRONA max width 768.jpg");
+    background-image: url("../img/JJSTRONA\ max\ width\ 768.jpg");
   }
   .row {
     gap: 5px;
@@ -679,12 +679,10 @@ footer {
   color:white
 }
 .div{
- 
-  background-color: transparent;
   margin: 40px 70px;
   align-self: flex-end; 
   text-align: right;
-  font-size: 30px;
+  font-size: 70px;
   color: white;
   opacity: 0.2;
   z-index: 3;
