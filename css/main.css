@@ -550,7 +550,10 @@ footer {
   }
   header.hero-img {
     background-image: url("../img/JJSTRONA_mobile3.jpg");
-    background-size: contain;
+
+    background-attachment: scroll;
+  }
+  .aboutme-shadow{
     background-attachment: scroll;
   }
   .row {
@@ -572,6 +575,7 @@ footer {
   .navbar-expand-lg .navbar-collapse{
     height: 0px;
   }
+  
   
 }
 @media (min-width: 768px) {
