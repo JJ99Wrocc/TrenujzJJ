@@ -32,7 +32,7 @@ footer, .hero-text, .benefits-inscription, .location-text, .opinion-inscription,
   text-align: center;
 }
 
-.hero-text, .row, .benefits-inscription {
+.hero-text, .row, .benefits-inscription,.click-and-see-map {
   display: flex;
   justify-content: center;
 }
@@ -106,7 +106,7 @@ nav .navbar-nav {
   margin-right: 20px;
 }
 nav .nav-link:hover, nav .navbar-expand-lg:hover, nav .navbar-nav:hover, nav .navbar-brand:hover, nav .fa-bars:hover {
-  color: brown;
+  color: #ff8800;
 }
 nav .shadow-bg {
   background-color: rgba(0, 0, 0, 0.9);
@@ -130,7 +130,7 @@ header.hero-img::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); 
+  background-color: rgba(0, 0, 0, 0.7); 
   z-index: 1;
 }
 
@@ -265,6 +265,25 @@ z-index: 2;
   background-image: url("../img/JJSTRONA2.jpg");
   z-index: -5;
 }
+.click-and-see-map{
+  margin-top: 20px;
+  gap: 10px;
+  color: #ff8800;
+  z-index: 3;
+  cursor: pointer;
+}
+.click-and-see-map:hover{
+  color: #fff;
+  transform: scale(1.1);
+}
+.map{
+  position: absolute;
+  top: 0;right: 20px;
+ border-radius: 25%;
+  display: none;
+  height: 300px;
+  width: 300px;
+}
 
 .prices {
   position: relative;
@@ -298,15 +317,18 @@ z-index: 2;
   margin: 0 auto;
   margin-bottom: 60px;
   left: 50px;
-  text-decoration: none;
+  
   cursor: pointer;
 }
-
+.ask-for-price:hover, .fa-phone-volume:hover{
+  color: #ff8800;
+}
 .ask-for-price {
   margin-left: 30px;
   font-weight: bold;
   border-radius: 10%;
   z-index: 100;
+  text-decoration: none;
 }
 
 .fa-phone-volume {
@@ -682,7 +704,7 @@ footer {
   margin: 40px 70px;
   align-self: flex-end; 
   text-align: right;
-  font-size: 70px;
+  font-size: 30px;
   color: white;
   opacity: 0.2;
   z-index: 3;
@@ -697,5 +719,7 @@ footer {
   border-radius: 25%;
   border: #ff8800 1px solid;
 }
+
+
 
 /*# sourceMappingURL=main.css.map */

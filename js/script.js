@@ -7,10 +7,20 @@ const phone = document.querySelector('.icon')
 const number = document.querySelector('.number')
 const phonee = document.querySelector('.ask-for-price')
 const nav = document.querySelector('.nav');
+const clickMap = document.querySelector('.click-and-see-map')
+const map = document.querySelector('.map')
 
 
+const openMap = () =>{
+ if(window.getComputedStyle(map).display === 'none'){
+    map.style.display ='block'
+ } else {
+    map.style.display = 'none'
+ }
+}
+clickMap.addEventListener('click', openMap)
 const daRade = () => {
-    // Działa tylko dla mniejszych ekranów (poniżej 768px)
+    
     if (!navBar.classList.contains('start') && !window.innerWidth < 768) {
         navBar.classList.add('start');
         navBarLink.style.display = 'block';
