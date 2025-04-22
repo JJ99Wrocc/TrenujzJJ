@@ -12,6 +12,7 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 h1{font-size: 25px;
     }
@@ -144,7 +145,7 @@ footer{
 
     a.navlink:hover, a.nav-link:hover,.active:hover{
         transform: scale(1.2);
-        color: brown;
+        color: #ff8800;
     }
 }
 
