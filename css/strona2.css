@@ -259,12 +259,12 @@ span{
     100%{    transform: rotate(-45deg)};   
 } 
 .arrow-up{
-    display: block;
-    margin: 0px auto;
+    position: absolute;
+    top: 100px;
+    right: 30px;
     padding: 20px;
     color: #ff8800;
     font-size: 20px;
-    text-align: right;
     cursor: pointer;
   }
   .arrow-up:hover{
