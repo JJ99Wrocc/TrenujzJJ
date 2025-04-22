@@ -412,8 +412,6 @@ footer {
 @media (max-width: 350px) {
   header.hero-img {
     background-image: url("../img/JJSTRONA_mobile1.jpg");
-    background-size: contain;
-    background-attachment: scroll;
   }
 }
 @media (max-width: 578px) {
@@ -460,8 +458,6 @@ footer {
   }
   header.hero-img {
     background-image: url("../img/JJSTRONA_mobile.jpg");
-    background-size: contain;
-    background-attachment: scroll;
   }
   .hero-btn{
     width: 45%;
@@ -556,7 +552,6 @@ footer {
     background-image: url("../img/JJSTRONA_mobile3.jpg");
     background-size: contain;
     background-attachment: scroll;
-    /* min-height: 80vh; */
   }
   .row {
     gap: 5px;
@@ -715,14 +710,7 @@ footer {
   font-size: 30px;
   color: white;
   opacity: 0.2;
-  z-index: 3;
-  text-shadow:
-  0 0 5px #ff8800,
-  0 0 10px #ff8800,
-  0 0 15px #ff8800,
-  0 0 20px #ff8800;
-
-}
+  z-index: 3;}
 .navbar-brand img{
   border-radius: 25%;
   border: #ff8800 1px solid;
