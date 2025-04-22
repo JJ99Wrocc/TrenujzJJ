@@ -569,6 +569,9 @@ footer {
       font-size: 22px;
     }
   }
+  .navbar-expand-lg .navbar-collapse{
+    height: 0px;
+  }
   
 }
 @media (min-width: 768px) {
