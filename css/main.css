@@ -694,7 +694,7 @@ footer {
   }
 }
 .start {
-  height: 320px;
+  height: 0px;
   background-color: rgba(0, 0, 0, 0.9);
 }
 

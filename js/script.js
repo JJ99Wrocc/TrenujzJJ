@@ -61,11 +61,24 @@ toggler.addEventListener('click', daRade);
 
 
     window.addEventListener('load', () => {
-        const link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.href = 'https://unpkg.com/aos@2.3.1/dist/aos.css';  
-        document.head.appendChild(link);
+        // Ładowanie AOS
+        const aosLink = document.createElement('link');
+        aosLink.rel = 'stylesheet';
+        aosLink.href = 'https://unpkg.com/aos@2.3.1/dist/aos.css';
+        document.head.appendChild(aosLink);
+    
+        // Ładowanie FontAwesome
+        const fontAwesomeLink = document.createElement('link');
+        fontAwesomeLink.rel = 'stylesheet';
+        fontAwesomeLink.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css';
+        document.head.appendChild(fontAwesomeLink);
+        
+        const googleFontsLink = document.createElement('link');
+        googleFontsLink.rel = 'stylesheet';
+        googleFontsLink.href = 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap';
+        document.head.appendChild(googleFontsLink);
     });
+    
     
     
 AOS.init();
