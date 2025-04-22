@@ -15,7 +15,7 @@ html {
 header.hero-img, .aboutme-photo, .aboutme-shadow, .location-shadow {
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   -o-object-fit: cover;
      object-fit: cover;
@@ -411,7 +411,7 @@ footer {
 
 @media (max-width: 350px) {
   header.hero-img {
-    background-image: url("../img/JJSTRONA\ mw\ 350px.jpg");
+    background-image: url("../img/JJSTRONA_mobile1.jpg");
   }
 }
 @media (max-width: 578px) {
@@ -457,7 +457,7 @@ footer {
     display: none;
   }
   header.hero-img {
-    background-image: url("../img/JJSTRONA\ mw\ 578px\ \(1\).jpg");
+    background-image: url("../img/JJSTRONA_mobile.jpg");
   }
   .hero-btn{
     width: 45%;
@@ -549,7 +549,8 @@ footer {
     display: none;
   }
   header.hero-img {
-    background-image: url("../img/JJSTRONA\ max\ width\ 768.jpg");
+    background-image: url("../img/JJSTRONA_mobile3.jpg");
+    min-height: 80vh;
   }
   .row {
     gap: 5px;
