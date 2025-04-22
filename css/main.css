@@ -13,10 +13,10 @@ html {
 }
 
 header.hero-img, .aboutme-photo, .aboutme-shadow, .location-shadow {
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-attachment: fixed;
+  background-attachment: scroll;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -720,6 +720,7 @@ footer {
 .navbar-brand img{
   border-radius: 25%;
   border: #ff8800 1px solid;
+  margin-right: 10px;
 }
 
 

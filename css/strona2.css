@@ -48,6 +48,7 @@ nav{
         height: 30px;
         width: 30px;
         border: #ff8800 1px solid;
+        margin-right: 10px;
         border-radius: 25%;
       }
 }    
