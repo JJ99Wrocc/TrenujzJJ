@@ -60,5 +60,12 @@ toggler.addEventListener('click', daRade);
     window.addEventListener('resize', updateNavBarOnResize);
 
 
+    window.addEventListener('load', () => {
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = 'https://unpkg.com/aos@2.3.1/dist/aos.css';  
+        document.head.appendChild(link);
+    });
+    
     
 AOS.init();

@@ -15,8 +15,8 @@ html {
 header.hero-img, .aboutme-photo, .aboutme-shadow, .location-shadow {
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
-  background-attachment: scroll;
+  background-size: cover;
+  background-attachment: fixed;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -412,6 +412,8 @@ footer {
 @media (max-width: 350px) {
   header.hero-img {
     background-image: url("../img/JJSTRONA_mobile1.jpg");
+    background-size: contain;
+    background-attachment: scroll;
   }
 }
 @media (max-width: 578px) {
@@ -458,6 +460,8 @@ footer {
   }
   header.hero-img {
     background-image: url("../img/JJSTRONA_mobile.jpg");
+    background-size: contain;
+    background-attachment: scroll;
   }
   .hero-btn{
     width: 45%;
@@ -550,7 +554,9 @@ footer {
   }
   header.hero-img {
     background-image: url("../img/JJSTRONA_mobile3.jpg");
-    min-height: 80vh;
+    background-size: contain;
+    background-attachment: scroll;
+    /* min-height: 80vh; */
   }
   .row {
     gap: 5px;
