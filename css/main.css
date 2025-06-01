@@ -2,9 +2,6 @@
   --root-grey: grey;
   --root-text-shadow: 0 0 1px grey, 0 0 1px grey, 0 0 1px grey;
 }
-body {
-  overflow-x: hidden;
-}
 
 html {
   scroll-behavior: smooth;
