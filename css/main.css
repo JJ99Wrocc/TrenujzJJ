@@ -152,7 +152,7 @@ header.hero-img::after {
   width: 26%;
   background-color: #ff8800;
 color: white;
-font-size: 20px;
+font-size: 18px;
 padding: 12px 30px;
 border: none;
 border-radius: 8px;
@@ -462,7 +462,7 @@ footer {
   }
   .hero-btn{
     width: 45%;
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 @media (max-width: 460px) {
@@ -635,7 +635,7 @@ footer {
   }
   .hero-btn{
     width: 30%;
-    font-size: 12px;
+    font-size: 11px;
   }
  
 }
@@ -654,7 +654,7 @@ footer {
 @media (min-width: 992px ) and (max-width: 1300px){
   .hero-btn{
     width: 30%;
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 @keyframes jump {
