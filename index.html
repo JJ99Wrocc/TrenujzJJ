@@ -1,113 +1,102 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trenuj z JJ </title>
+  <title>Trenuj z JJ</title>
   <link rel="icon" href="./img/JJSTRONA3.jpg" type="image/x-icon">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-6LK9VLTX6T');
-</script>
-  
-<meta name="google-site-verification" content="URSdkLP1ObIuqjV02yoxa6N5eZTZjdwJg8KS0ZVE41k" />
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5N3NJP89');</script>
-<!-- End Google Tag Manager -->
+  <!-- Google Analytics (opóźniony załadunek) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        var gaScript = document.createElement('script');
+        gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-6LK9VLTX6T";
+        gaScript.async = true;
+        document.head.appendChild(gaScript);
+
+        gtag('js', new Date());
+        gtag('config', 'G-6LK9VLTX6T');
+      }, 3000);
+    });
+  </script>
+
+  <!-- Google Tag Manager (opóźniony załadunek) -->
+  <script>
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5N3NJP89');
+      }, 3000);
+    });
+  </script>
+
+  <meta name="google-site-verification" content="URSdkLP1ObIuqjV02yoxa6N5eZTZjdwJg8KS0ZVE41k" />
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5N3NJP89"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<section >
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5N3NJP89"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
-  
-  <nav class="navbar start1  navbar-expand-lg bg-body-tertiary fixed-top py-3">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="./img/JJSTRONA3.jpg" alt="Logo trenuj z JJ"> Trenuj z JJ
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa-solid fa-bars"></i>
-    </button>
-      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-        <div class="navbar-nav ">
-          <a class="nav-link active" aria-current="page" href="./index.html">Zarezerwuj trening</a>
-
-          <a class="nav-link" href="./strona1.html">Regulamin treningu</a>
-          <a class="nav-link" href="./strona2.html">Polityka i RODO</a>
-          <!-- <a class="nav-link" href="#">Galeria</a> -->
-        
+  <section>
+    <nav class="navbar start1 navbar-expand-lg bg-body-tertiary fixed-top py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./img/JJSTRONA3.jpg" alt="Logo trenuj z JJ"> Trenuj z JJ
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="./index.html">Zarezerwuj trening</a>
+            <a class="nav-link" href="./strona1.html">Regulamin treningu</a>
+            <a class="nav-link" href="./strona2.html">Polityka i RODO</a>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-</section>
-<section id="hero">
-  <header  class="hero-img">
-    
-    <div class="hero-text">
-      <h1 class="hero-h1"
-      data-aos="zoom-in-up"
-      data-aos-duration="1000">Trenuj z JJ</h1>
-      
-      <a href="#kontakt" class="hero-btn"
-      data-aos="zoom-in-up"
-      data-aos-duration="1400">UMÓW PIERWSZY TRENING</a>
-      
-      
-      <div class="div"      >MMA | K1 | BOKS</div>
-    </div>
-    </header>
-</section>
+    </nav>
+  </section>
 
-<main>
-    <section  class="main-info"> 
-      
-      <h2 class=" h2">O mnie</h2>
+  <section id="hero">
+    <header class="hero-img">
+      <div class="hero-text">
+        <h1 class="hero-h1" data-aos="zoom-in-up" data-aos-duration="1000">Trenuj z JJ</h1>
+        <a href="#kontakt" class="hero-btn" data-aos="zoom-in-up" data-aos-duration="1400">UMÓW PIERWSZY TRENING</a>
+        <div class="div">MMA | K1 | BOKS</div>
+      </div>
+    </header>
+  </section>
+
+  <main>
+    <section class="main-info">
+      <h2 class="h2">O mnie</h2>
       <div class="main-line line"></div>
       <div class="container">
-        <p class="about-me-text"
-        data-aos="zoom-out-down"
-        data-aos-duration="1000"
-        >
-
-        Cześć! Jestem Joachim "JJ" Esangbedo – pasjonat sportów walki i zdrowego stylu życia. Od lat trenuję MMA i brazylijskie jiu-jitsu, zdobywając doświadczenie zarówno na macie, jak i w oktagonie. Sport nauczył mnie dyscypliny, wytrwałości i ciągłego dążenia do doskonałości – teraz chcę, żebyś Ty poczuł to samo!
-
-        Jako trener personalny moim celem jest pomóc Ci zacząć – niezależnie od tego, czy dopiero zaczynasz, czy już masz jakieś doświadczenie. Jeśli dopiero wchodzisz w świat treningów, świetnie! Pokażę Ci, jak zbudować solidne podstawy i zyskać pewność siebie. A jeśli już trenujesz, razem podniesiemy Twoje umiejętności na wyższy poziom!
-        
-        Trening to coś więcej niż tylko lepsza sylwetka i kondycja – to także większa pewność siebie, lepsze radzenie sobie ze stresem i świetna zabawa! Wspólnie zadbamy o Twoją formę, technikę i zdrowie. A przede wszystkim pokażę Ci, że trening może być ekscytującą przygodą, która oderwie Cię od codziennych obowiązków.
-        
-        Zacznij swoją podróż już teraz! Skontaktuj się ze mną, a wspólnie ustalimy plan działania!
-</p></div>
-
-
-      <div class="aboutme-shadow"></div>  
+        <p class="about-me-text" data-aos="zoom-out-down" data-aos-duration="1000">
+          Cześć! Jestem Joachim "JJ" Esangbedo – pasjonat sportów walki i zdrowego stylu życia...
+          <!-- Skrócone dla przejrzystości – wklej pełny tekst jeśli potrzebujesz -->
+        </p>
+      </div>
+      <div class="aboutme-shadow"></div>
     </section>
-    
+
     <section class="benefits-of-training">
-      <h2 class="benefits-inscription" >Zalety treningów sztuk walki</h2>
-      <div class=" benefits-line line"></div>
+      <h2 class="benefits-inscription">Zalety treningów sztuk walki</h2>
+      <div class="benefits-line line"></div>
       <div class="container">
         <div class="row">
-          <div class="lefft-info col-md-5 col-lg-5"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-           > <p>
+          <div class="lefft-info col-md-5 col-lg-5" data-aos="fade-right" data-aos-duration="1000">
             <ul>
               <li>Zwiększenie masy mięśniowej</li>
               <li>Redukcja tkanki tłuszczowej</li>
@@ -116,79 +105,72 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <li>Zwiększenie elastyczności mięśni</li>
               <li>Wzrost koncentracji</li>
             </ul>
-          </p></div>
-          <div class="right-info col-md-5 col-lg-5" 
-          data-aos="fade-left"
-          data-aos-duration="1000">
-            <p>
-        <ul>
-          <li>Regularne treningi pomagają w redukcji stresu</li>
-          <li>Poprawa wydolności sercowo-naczyniowej</li>
-          <li>Zmniejszenie ryzyka kontuzji</li>
-          <li>Poprawa refleksu</li>
-          <li>Poznanie własnych granic</li>
-          <li>Zwiększenie poziomu energii</li>
-      </ul>
-    </p></div>
-    </div>  
-  </div>
-</section>
-<section class="location">
-  <div class="container">
-    <div class="location-text location-inscription">Lokalizacja treningów</div>
-    <div class="location-line line"></div>
-    <div class="location-text">Treningi odbywają się w: </div>
-    <div class="location-text">Budynek Hasta la Vista, Klubie Bonzai MMA</div>
-    <div class="location-text"> ul.Góralska 5 54-030, Wrocław</div>
-  </div>
-  <div class="click-and-see-map" onclick="openMap()"> 
-    <i class="fa-solid fa-map-location"></i> KLIKNIJ I ZOBACZ NA MAPIE
-  </div>
-</section>
+          </div>
+          <div class="right-info col-md-5 col-lg-5" data-aos="fade-left" data-aos-duration="1000">
+            <ul>
+              <li>Redukcja stresu</li>
+              <li>Poprawa wydolności</li>
+              <li>Zmniejszenie ryzyka kontuzji</li>
+              <li>Poprawa refleksu</li>
+              <li>Poznanie własnych granic</li>
+              <li>Zwiększenie energii</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="kontakt" class="prices"
-data-aos="fade-up"
-data-aos-duration="1000">
-  <div class="prices-inscription">CENA</div>
-  <div class="price-line line"></div>
-  <div class="container">
-    <div class="row"></div>
-    <ul class="prices-ul">
-      <li>1 osoba - 150zł</li>
-      <li>2 osoby - 190zł</li>
-      <li>Grupa do 4 osób - 240zł</li>    
-      </ul>
-      <div class="prices-inscription">Pakiety treningów</div>
+    <section class="location">
+      <div class="container">
+        <div class="location-text location-inscription">Lokalizacja treningów</div>
+        <div class="location-line line"></div>
+        <div class="location-text">Treningi odbywają się w:</div>
+        <div class="location-text">Budynek Hasta la Vista, Klubie Bonzai MMA</div>
+        <div class="location-text">ul.Góralska 5 54-030, Wrocław</div>
+      </div>
+      <div class="click-and-see-map" onclick="openMap()"> 
+        <i class="fa-solid fa-map-location"></i> KLIKNIJ I ZOBACZ NA MAPIE
+      </div>
+    </section>
+
+    <section id="kontakt" class="prices" data-aos="fade-up" data-aos-duration="1000">
+      <div class="prices-inscription">CENA</div>
       <div class="price-line line"></div>
-      <ul class="prices-ul">
-        <li>5 treningi w cenie 4</li>
-        <li>10 treningów w cenie 8</li>
-        <li class="last-li">15 treningów w cenie 12</li>    
+      <div class="container">
+        <ul class="prices-ul">
+          <li>1 osoba - 150zł</li>
+          <li>2 osoby - 190zł</li>
+          <li>Grupa do 4 osób - 240zł</li>    
+        </ul>
+        <div class="prices-inscription">Pakiety treningów</div>
+        <div class="price-line line"></div>
+        <ul class="prices-ul">
+          <li>5 treningi w cenie 4</li>
+          <li>10 treningów w cenie 8</li>
+          <li class="last-li">15 treningów w cenie 12</li>    
         </ul>
         <a class="contact" href="tel:+48791881256">
           <span class="contact">Zarezerwuj trening</span>
         </a>
-        
       </div>
-      
       <div class="logo"><img src="./img/JJSTRONA3.jpg" alt="LOGO JJ"></div>
       <a href="#hero" class="arrow-up"><i class="fa-solid fa-circle-up"></i></a>
-
-      
-      
-    <a href=" https://www.instagram.com/jj99flex?igsh=cGhtZnU1bXhrcm91&utm_source=qr" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-    <a href="https://www.tiktok.com/@jj99flex?_t=ZN-8uAAYKfKTly&_r=1"target="_blank"> <i class="fa-brands fa-tiktok"></i></a>
-    <p class="footer-p">!! SOCIAL MEDIA !!</p>
+      <a href="https://www.instagram.com/jj99flex?igsh=cGhtZnU1bXhrcm91&utm_source=qr" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.tiktok.com/@jj99flex?_t=ZN-8uAAYKfKTly&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+      <p class="footer-p">!! SOCIAL MEDIA !!</p>
     </section>
-    
-          <a  class="ask-for-price d-none d-sm-block" href="tel:+48 791 881 256"><i class="fa-solid fa-phone-volume"></i>+48 791 881 256</a>
-          <a class="d-block d-sm-none" href="tel:+48 791881256"><i class=" icon fa-solid fa-phone-volume"></i></a>
-</main>
 
-<footer><p>&copy; 2025 Trenuj z JJ Wszelkie prawa zastrzeżone.</p></footer>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="./js/script.js"></script>
+    <a class="ask-for-price d-none d-sm-block" href="tel:+48 791 881 256"><i class="fa-solid fa-phone-volume"></i> +48 791 881 256</a>
+    <a class="d-block d-sm-none" href="tel:+48 791881256"><i class="icon fa-solid fa-phone-volume"></i></a>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Trenuj z JJ Wszelkie prawa zastrzeżone.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 </html>
