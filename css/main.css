@@ -158,7 +158,7 @@ border: none;
 border-radius: 8px;
 cursor: pointer;
 text-decoration: none;
-transition: 0.3s;
+transition: backgroundColor 0.3s;
 text-shadow: 0 0 5px rgba(255, 136, 0, 0.7);
 z-index: 2;
 }
