@@ -1,0 +1,11 @@
+/media/*
+  Cache-Control: public, max-age=31536000
+
+/*.js
+  Cache-Control: public, max-age=604800
+
+/*.css
+  Cache-Control: public, max-age=604800
+
+/* 
+  Cache-Control: public, max-age=600
