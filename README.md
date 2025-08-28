@@ -23,17 +23,6 @@
 - **Optymalizacja SEO** – poprawa widoczności w wyszukiwarkach internetowych
 
 ---
-
-##  Szybki start
-
-1. **Sklonuj repozytorium:**
-   ```bash
-   git clone https://github.com/JJ99Wrocc/TrenujzJJ.git
-   cd TrenujzJJ
-open index.html
-Aplikacja będzie dostępna pod adresem: http://localhost:3000
-
-
  Struktura projektu
 TrenujzJJ/
 ├── css/               
